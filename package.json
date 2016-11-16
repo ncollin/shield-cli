@@ -1,0 +1,26 @@
+{
+  "name": "shield-cli",
+  "version": "1.0.0",
+  "description": "Tool to help with atomic design workflow",
+  "main": "./src/shield-cli.js",
+  "scripts": {
+    "start": "node ./src/shield-cli.js",
+    "test": "gulp lint test"
+  },
+  "bin": {
+    "shield": "./src/shield-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncollin/shield-cli.git"
+  },
+  "author": "Nico Collin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncollin/shield-cli/issues"
+  },
+  "homepage": "https://github.com/ncollin/shield-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
